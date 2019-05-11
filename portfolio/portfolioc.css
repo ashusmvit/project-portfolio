@@ -16,7 +16,7 @@ ul{
   overflow: hidden;/*what should be done with the extra part*/
   position: fixed;
   background-color: #333;
-z-index: 1;/*preference stack..higher value..higgher priority..for exaxmple the img overlap problem i faced by givin im lower z-value.it went inside widout overlapping*/}
+  z-index: 1;/*preference stack means higher value and higher priority. For exaxmple the img overlap problem i faced by givin img lower z-value. It went inside without overlapping*/}
 li {
   display:inline;
   padding:0%;
@@ -83,11 +83,11 @@ a.button1 {
   font-size: 20px;
   font-weight: bold;
   border-radius: 8px;
-border: 2px solid #008CBA;
-margin-left: 15px;
-padding: 1% 1% 1% 1%;
-text-decoration: none;
-color:black;}
+  border: 2px solid #008CBA;
+  margin-left: 15px;
+  padding: 1% 1% 1% 1%;
+  text-decoration: none;
+  color:black;}
 a.button2 {
   background-color: #4CAF50;
   font-size:20px;
